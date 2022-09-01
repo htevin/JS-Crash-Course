@@ -19,9 +19,42 @@
  //  else console.log (`${i} --> ${i}`)
 // }
 
-let str = "Frontend Simplified"
+//let str = "Frontend Simplified"
 
-for (let i=0; i<str.length; i= i+1)
-{
-    console.log(str[i])
+//for (let i=0; i<str.length; i= i+1)
+//{
+ //   console.log(str[i])
+//}
+
+
+//function convertCelciusToFahrenheit (celsius) {
+  //let fahrenheit = celsius * 1.8 + 32
+  //return fahrenheit
+//}
+
+//console.log(convertCelciusToFahrenheit(30))
+
+//let grades = ['A+', 'A', 'FAIL']
+//let goodGrades = []
+
+//for (let i = 0; i < grades.length; ++i){
+// if (grades[i] !== 'FAIL') {
+ // goodGrades.push(grades[i]);
+ //}
+//}
+//console.log(goodGrades);
+
+//let dollars = [1, 5, 10, 3];
+
+//let cents = dollars.map(element => element * 100)
+
+//console.log(cents)
+
+let dollars = [1, 5, 10, 3]
+let cents = []
+
+for (let i = 0; i < dollars.length; ++i) {
+  cents.push(dollars[i] * 100)
 }
+
+console.log(cents);
